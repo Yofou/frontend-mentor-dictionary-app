@@ -38,7 +38,9 @@
 			<img src="/book.svg" alt="" />
 			<Dropdown>
 				<p slot="selected">{data.font}</p>
-				<div class="flex flex-col items-start p-6" slot="list">
+
+        <div class="flex flex-col items-start p-6" slot="list">
+        {#key $page.url.pathname}
 					{#each fonts as font}
 						<a
 							class="focus:text-purple outline-none focus:border-none focus:outline-0 hover:text-purple"
@@ -48,7 +50,8 @@
 							{font}
 						</a>
 					{/each}
-				</div>
+        {/key}
+        </div>  
 			</Dropdown>
 			<div class="w-[1px] h-full bg-white-300 mx-5" />
 			<ThemeSwitcher />
