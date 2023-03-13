@@ -24,6 +24,7 @@
 	};
 </script>
 
+<h1 class="sr-only">Dictionary App</h1>
 <div 
   class="px-12 bg-white-full text-black-1500 grid grid-cols-[1fr,minmax(0,737px),1fr]"
   class:dark={data.theme === 'dark'}
