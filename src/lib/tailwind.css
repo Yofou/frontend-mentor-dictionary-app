@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-heading-l {
+	@apply text-[64px] leading-[77px];
+}
+
+.text-heading-m {
+	@apply text-[24px] leading-[29px];
+}
+
+.text-heading-s {
+	@apply text-[20px] leading-[24px];
+}
+
+.text-body-m {
+	@apply text-[18px] leading-[24px];
+}
+
+.text-body-s {
+	@apply text-[14px] leading-[17px];
+}
