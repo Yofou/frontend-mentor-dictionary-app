@@ -4,6 +4,7 @@
 
 <form class="flex gap-5 self-center" method="post" action="?/theme" use:enhance>
 	<button class="bg-black-300 dark:bg-purple w-[40px] h-[20px] rounded-[10px] relative">
+    <span>theme switcher</span>
 		<div
 			class="bg-white-full w-[14px] h-[14px] rounded-full top-[3px] absolute left-[3px] dark:left-auto dark:right-[3px]"
 		/>
